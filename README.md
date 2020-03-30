@@ -8,7 +8,7 @@ This is a set of files that includes visualizaiton, downloaded data, and a utili
 A Jupyter notebook that scrapes the daily data from the NYC Health COVID-19 website into a daily CSV file.  Because NYC publishes their data in PDF format, it is difficult to use.  This scraper allows the researcher to automatically generate a table of useful data.  The CSV file is structured in normal form for use with RDBMS applications. <b>Note that NYC changes its PDF format.</b>  Unfortunately, I can't guarantee this will always work.  You may have to adjust the regex codes.
 <br><br>
 <b>MJB Coronavirus.twbx:</b><br>
-A simple Tableau visualization that compares case and death rates for several states.
+A simple Tableau visualization that compares case and death rates for several states.  Source data is provided by Tableau in .hyper form and downloaded each day.  Data is available at http://tableau.com/covid-19-coronavirus-data-resources.
 <br><br>
 <b>MJB Coronavirus US Counties.twb:</b><br>
 A Tableau visualization that uses county level data from JHU
