@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20201.20.0219.0753                               -->
-<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xml:base='https://us-west-2b.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <_.fcp.MarkAnimation.true...MarkAnimation />
@@ -9,6 +9,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='MJBNYCCoronavirus' path='/t/universityofoklahomadsa5051/workbooks' revision='1.0' site='universityofoklahomadsa5051' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -18,7 +19,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='20200330-NYCHealth-Daily-COVID-data' name='textscan.1gjznth0q07v4h18haye40jb5vmp'>
-            <connection class='textscan' directory='C:/Users/mjbea/OneDrive/GitHub/MJB-COVID19-dataanalysis' filename='20200330-NYCHealth-Daily-COVID-data.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/mjbea/OneDrive/GitHub/MJB-COVID19-dataanalysis' filename='20200330-NYCHealth-Daily-COVID-data.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1gjznth0q07v4h18haye40jb5vmp' name='20200330-NYCHealth-Daily-COVID-data.csv' table='[20200330-NYCHealth-Daily-COVID-data#csv]' type='table'>
@@ -800,8 +801,8 @@
           </layout-options>
           <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='17' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='22' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='21' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='4500' id='16' type='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
