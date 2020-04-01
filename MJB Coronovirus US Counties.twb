@@ -8,7 +8,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='MJBCoronovirusUSCounties' path='/t/universityofoklahomadsa5051/workbooks' revision='1.0' site='universityofoklahomadsa5051' />
+  <repository-location id='MJBCoronovirusUSCounties' path='/t/universityofoklahomadsa5051/workbooks' revision='1.2' site='universityofoklahomadsa5051' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -18,7 +18,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='JHU County Data' name='textscan.0h8a17u1ton92z175bu8n1fdegue'>
-            <connection class='textscan' directory='C:/Users/mjbea/OneDrive/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' filename='03-30-2020.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='C:/Users/mjbea/OneDrive/GitHub/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' filename='03-31-2020.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.0h8a17u1ton92z175bu8n1fdegue' name='03-30-2020.csv' table='[03-30-2020#csv]' type='table'>
@@ -218,7 +218,7 @@
           <field>[Province_State]</field>
         </drill-path>
       </drill-paths>
-      <layout dim-ordering='alphabetic' dim-percentage='0.56' measure-ordering='alphabetic' measure-percentage='0.44' rowDisplayCount='10000' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.420645' measure-ordering='alphabetic' measure-percentage='0.579355' rowDisplayCount='10000' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
